@@ -22,3 +22,5 @@ At the same time the model will return your potential revenue.
 
 How does it work?
 The model is based on LSTM from keras library. The model is trained on data of four previous years. We use the data of the following companies: Boeing, Cisco and Intel. All data were taken from [quandl.com](https://www.quandl.com)
+
+To run a server: `python index.py`
