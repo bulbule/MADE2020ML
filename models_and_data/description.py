@@ -1,4 +1,4 @@
-DESCRIPTION = '''We are delighted to present you the service which provides financial advice for investor. Take advantage of it and soon we'll see you on the Forbes list!\n
+DESCRIPTION = '''
 The service allows a user to realize the following operations:\n
 1)    **Stock price prediction for the next five days using Gaussian process**\n
 *What should I do?*\n

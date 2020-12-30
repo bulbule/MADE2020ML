@@ -10,7 +10,6 @@ from dash.dependencies import Input, Output
 import pandas as pd
 
 from script_LSTM import full_period, STOCKS_NAMES
-from models_and_data.description import DESCRIPTION
 
 
 from gaussian_process import get_prediction
@@ -31,8 +30,6 @@ for df in [df_boeing, df_cisco, df_intel]:
 
 app.layout = html.Div(children=[
     html.H1(children='Market oracle'),
-
-    dcc.Markdown(children=DESCRIPTION),
     dcc.Dropdown(
         id="tool",
         options=[
